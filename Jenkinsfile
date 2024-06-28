@@ -9,11 +9,10 @@ pipeline {
            sh "Test"
                 //
             }
-        }
+        
         stage('Deploy') {
           sh "Deploy"
                 //
             }
         }
-    }
-}
+    
