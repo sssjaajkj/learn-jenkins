@@ -52,6 +52,7 @@ stage("print params"){
                 echo "Password: ${params.PASSWORD}"
                 echo "triggered test"
                  echo "triggered test"
+                 error "some wrong"
     }
 }
     }
