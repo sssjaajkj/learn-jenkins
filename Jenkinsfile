@@ -54,7 +54,7 @@ stage("print params"){
                  echo "triggered test"
     }
 }
-
+    }
 post {
     always{
         echo 'I will always say Hello agin!'
@@ -68,4 +68,4 @@ post {
 }
 }
 
-    }
+    
