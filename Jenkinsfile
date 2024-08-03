@@ -48,7 +48,7 @@ pipeline{
                 echo "Choice: ${params.CHOICE}"
 
                 echo "Password: ${params.PASSWORD}"
-                echo 'Triggered push and grte'
+                echo 'Triggered pushes'
             }
               
               }  }
