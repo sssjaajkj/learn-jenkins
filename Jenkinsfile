@@ -14,7 +14,7 @@ pipeline{
         }
 
         stage("Depoly"){
-            stesp{
+            steps{
                 sh 'echo This is Depoly'
             }
         }
