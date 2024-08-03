@@ -2,24 +2,23 @@ pipeline{
     agent any
         stages{
             stage("BUild"){
-                step{
+                steps{
                     sh 'echo This is Build'
                 }
             }
     
         stage("Test"){
-            step{
+            steps{
                 sh 'echo This is Test'
             }
         }
 
         stage("Depoly"){
-            step{
+            stesp{
                 sh 'echo This is Depoly'
             }
         }
 
         }
     }
-
 
