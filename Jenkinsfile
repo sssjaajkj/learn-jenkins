@@ -36,9 +36,8 @@ pipeline{
                 steps{
                     sh 'echo Ths is Depoly'
                 }
-            }   
-
-            stage('print parameter') {
+            } 
+            stage('Example') {
             steps {
                 echo "Hello ${params.PERSON}"
 
@@ -50,6 +49,6 @@ pipeline{
 
                 echo "Password: ${params.PASSWORD}"
             }
-
-    }
+              
+              }  }
 }
