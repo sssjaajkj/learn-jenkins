@@ -56,5 +56,24 @@ parameters {
 
                 echo "Password: ${params.PASSWORD}"
             }
-}}
+
+
+}
+post { 
+        always { 
+            echo 'I will always say Hello again!'
+        }
+
+        success { 
+            echo 'I will success say Hello again!'
+        }
+
+        failure { 
+            echo 'I will failure say Hello again!'
+        }
+    }
+
+
+
+}
 }
