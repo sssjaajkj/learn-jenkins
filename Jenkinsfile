@@ -17,7 +17,7 @@ pipeline{
         stage("Test"){
             steps{
                 sh "echo This Test"
-                sh 'sleep 10'
+                sh 'sleep 23'
             }
         }
         stage("Doply"){
