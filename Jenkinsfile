@@ -52,3 +52,4 @@ parameters {
                 echo "Password: ${params.PASSWORD}"
             }
 }}
+}
