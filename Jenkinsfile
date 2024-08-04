@@ -69,7 +69,7 @@ post {
         }
 
         failure { 
-            echo 'I will failure say Hello again!'
+            echo 'I will failured say Hello again!'
         }
     }
 
