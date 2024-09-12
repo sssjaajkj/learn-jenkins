@@ -6,11 +6,9 @@ pipeline{
                     echo 'Hello World'
                 }
             }
-        }
-    }
 }
-
-// pipeline {
+        
+        // pipeline {
 //     agent any
 
 //     stages {
