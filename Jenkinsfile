@@ -8,8 +8,7 @@ pipeline{
         disableConcurrentBuilds()
     }
 
-pipeline {
-    agent any
+
     parameters {
         string(name: 'PERSON', defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?')
 
@@ -22,7 +21,7 @@ pipeline {
         password(name: 'PASSWORD', defaultValue: 'SECRET', description: 'Enter a password')
     }
 
-    
+
     stages {
         stage('Example') {
             steps {
