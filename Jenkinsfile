@@ -12,7 +12,7 @@ pipeline{
             }
         }
 
-        stage("depoly")
+        stage("depoly"){
         steps{
             sh 'echo depoly'
         }
